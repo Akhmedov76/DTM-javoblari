@@ -1,0 +1,17 @@
+talaba_ismi = input('Ismingizni kiriting: ').title()
+lgn = input("Loginingizni kiriting: ")
+pwd = input("Parolingizni kiriting: ")
+if lgn == 'admin' and pwd == '12345':
+    print(f"Xush kelibsiz {talaba_ismi} ")
+else:
+    print("Kiritilgan ma'lummot xato!!!")
+
+ball = float(input("Toplagan balingiz! "))
+if 140<=ball<=180:
+    print("Siz budget asosida o'qishga kirdingiz")
+elif 90<=ball<140:
+    print("Siz kontrakt asosida o'qishga kirdingiz")
+elif 56<=ball<90:
+    print("Siz Super kontrakt asosida o'qishga kirdingiz")
+else:
+    print("Talabalikga tavfsiya etilmadingiz!!!")
